@@ -25,7 +25,7 @@ export const StackPage = () => {
             <Typography.terminalText
                 className={"text-justify"}>
               <ul className={"list-disc list-inside"}>
-                <li>Java com Sringboot</li>
+                <li>Java com Spring Boot</li>
                 <li>NodeJS/TS com Express e TS.ED</li>
                 <li>React com ViteTS e Tailwind</li>
                 <li>Python com FastAPI</li>
@@ -41,10 +41,10 @@ export const StackPage = () => {
             <Typography.terminalText
                 className={"text-justify"}>
               <ul className={"list-disc list-inside"}>
-                <li>HTML e CSS avançado</li>
+                <li>HTML e CSS</li>
                 <li>SQL e NOSQL</li>
-                <li>Testes unitário e integrados.</li>
-                <li>Docker avançado</li>
+                <li>Testes unitários e integrados.</li>
+                <li>Docker</li>
                 <li>Deploy AWS</li>
                 <li>Git e Github</li>
                 <li>SCRUM e Gitflow</li>
