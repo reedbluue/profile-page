@@ -45,6 +45,7 @@ export const StackPage = () => {
                 <li>SQL e NOSQL</li>
                 <li>Testes unitário e integrados.</li>
                 <li>Docker avançado</li>
+                <li>Deploy AWS</li>
                 <li>Git e Github</li>
                 <li>SCRUM e Gitflow</li>
               </ul>

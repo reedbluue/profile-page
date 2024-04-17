@@ -56,7 +56,7 @@ export const ProfilePage = () => {
                             '<b>Igor "Reed" Oliveira</b><br/>'
                             + '<br/>'
                             + '- Desenvolvedor Full Stack.<br/>'
-                            + '- 21 anos, estudante de Engenharia da Computação e entusiasta da tecnologia.<br/>'
+                            + '- 24 anos, estudante de Engenharia da Computação e entusiasta da tecnologia.<br/>'
                             + '<br/>'
                             + '- Amante dos jogos eletrônicos competitivos, jogos de tabuleiro e piadas ruins.<br/>'
                             + '- Pra surpresa de muitos, não amante de café e adepto a Javaterapia ☕<br/>')
