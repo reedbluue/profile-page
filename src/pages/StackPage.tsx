@@ -26,10 +26,11 @@ export const StackPage = () => {
                 className={"text-justify"}>
               <ul className={"list-disc list-inside"}>
                 <li>Java com Spring Boot</li>
+                <li>C# com ASP.NET</li>
                 <li>NodeJS/TS com Express e TS.ED</li>
                 <li>React com ViteTS e Tailwind</li>
+                <li>Vue com ViteTS e Tailwind</li>
                 <li>Python com FastAPI</li>
-                <li>C# com ASP.NET</li>
               </ul>
             </Typography.terminalText>
           </div>
@@ -43,10 +44,11 @@ export const StackPage = () => {
               <ul className={"list-disc list-inside"}>
                 <li>HTML e CSS</li>
                 <li>SQL e NOSQL</li>
-                <li>Testes unitários e integrados.</li>
-                <li>Docker</li>
+                <li>Testes unitários e integrados</li>
+                <li>Docker e Kubernetes</li>
                 <li>Deploy AWS</li>
                 <li>Git e Github</li>
+                <li>Bash e Shell script</li>
                 <li>SCRUM e Gitflow</li>
               </ul>
             </Typography.terminalText>
