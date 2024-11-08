@@ -10,7 +10,7 @@ export const ProfilePage = () => {
   const [animation, setAnimation] = useState(false);
 
   useEffect(() => {
-    terminal.setTitle("Perfil");
+    terminal.setTitle("Profile");
     setStep(0);
   }, []);
 
@@ -55,11 +55,11 @@ export const ProfilePage = () => {
                         typewriter.changeDelay(15).typeString(
                             '<b>Igor "Reed" Oliveira</b><br/>'
                             + '<br/>'
-                            + '- Desenvolvedor Full Stack.<br/>'
-                            + '- 24 anos, estudante de Engenharia da Computação e entusiasta da tecnologia.<br/>'
+                            + '- Full Stack developer and Industrial Control specialist.<br/>'
+                            + '- 24 yo, computer Engineering student and technology enthusiast.<br/>'
                             + '<br/>'
-                            + '- Amante dos jogos eletrônicos competitivos, jogos de tabuleiro e piadas ruins.<br/>'
-                            + '- Pra surpresa de muitos, não amante de café e adepto a Javaterapia ☕<br/>')
+                            + '- Lover of competitive electronic games and board games.<br/>'
+                            + '- To the surprise of many, I\'m not a coffee lover and I\'m a fan of Javatherapy ☕<br/>')
                             .pauseFor(500).callFunction(nextStep)
                             .start();
                       }}
@@ -71,8 +71,8 @@ export const ProfilePage = () => {
                 <br/>
                 <Typography.terminalText
                     className={"text-justify block clear-both animate-fade-up animate-once animate-duration-500 animate-ease-linear"}>
-                  Aproveitando que está aqui, sinta-se a vontade para ver mais informações sobre
-                  minhas stacks, meu Github e informações de contato 👋
+                  While you're here, feel free to check out more information about
+                  my stacks, my Github and contact information 👋
                 </Typography.terminalText>
                 <div className={"h-14"}></div>
               </>}

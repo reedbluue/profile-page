@@ -13,56 +13,56 @@ export const StackPage = () => {
       <div
           className={"h-full w-full overflow-y-auto flex flex-col gap-8 animate-fade-up animate-once animate-duration-500 animate-ease-linear"}>
         <div className={"flex flex-col gap-2"}>
-          <Typography.terminalTextBold>As minhas Stacks:</Typography.terminalTextBold>
-          <Typography.terminalText>{"Aqui estão as principais tecnologias e frameworks que eu utilizo/utilizei durante toda minha jornada no mundo da programação."}</Typography.terminalText>
+          <Typography.terminalTextBold>My stacks:</Typography.terminalTextBold>
+          <Typography.terminalText>{"Here are the main technologies and frameworks that I have used throughout my journey in the world of programming."}</Typography.terminalText>
         </div>
         <div
             className={"flex gap-4 justify-between flex-wrap items-start"}>
           <div>
             <Typography.terminalTextBold>
-              Linguagens e Frameworks:
+              Languages and Frameworks:
             </Typography.terminalTextBold>
             <Typography.terminalText
                 className={"text-justify"}>
               <ul className={"list-disc list-inside"}>
-                <li>Java com Spring Boot</li>
-                <li>C# com ASP.NET</li>
-                <li>NodeJS/TS com Express e TS.ED</li>
-                <li>React com ViteTS e Tailwind</li>
-                <li>Vue com ViteTS e Tailwind</li>
-                <li>Python com FastAPI</li>
+                <li>Java with Spring Boot</li>
+                <li>C# with ASP.NET</li>
+                <li>NodeJS/TS with Express and TS.ED</li>
+                <li>React with ViteTS and Tailwind</li>
+                <li>Vue with ViteTS and Tailwind</li>
+                <li>Python with FastAPI</li>
               </ul>
             </Typography.terminalText>
           </div>
 
           <div>
             <Typography.terminalTextBold>
-              Outras competências:
+              Others skills:
             </Typography.terminalTextBold>
             <Typography.terminalText
                 className={"text-justify"}>
               <ul className={"list-disc list-inside"}>
-                <li>HTML e CSS</li>
-                <li>SQL e NOSQL</li>
-                <li>Testes unitários e integrados</li>
-                <li>Docker e Kubernetes</li>
+                <li>HTML and CSS</li>
+                <li>SQL and NOSQL</li>
+                <li>Unit and integrated tests</li>
+                <li>Docker and Kubernetes</li>
                 <li>Deploy AWS</li>
-                <li>Git e Github</li>
-                <li>Bash e Shell script</li>
-                <li>SCRUM e Gitflow</li>
+                <li>Git and Github</li>
+                <li>Bash and Shell script</li>
+                <li>SCRUM and Gitflow</li>
               </ul>
             </Typography.terminalText>
           </div>
 
           <div>
             <Typography.terminalTextBold>
-              Idiomas:
+              Natural languages:
             </Typography.terminalTextBold>
             <Typography.terminalText
                 className={"text-justify"}>
               <ul className={"list-disc list-inside"}>
-                <li>Portugês nativo</li>
-                <li>Inglês técnico</li>
+                <li>Native Portuguese</li>
+                <li>English A2</li>
               </ul>
             </Typography.terminalText>
           </div>

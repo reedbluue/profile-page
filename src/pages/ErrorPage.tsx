@@ -6,7 +6,7 @@ import {Typography} from "../layout/Typography";
 export const ErrorPage = () => {
   const terminal = useContext(TerminalContext);
   useEffect(() => {
-    terminal.setTitle("Erro");
+    terminal.setTitle("Error");
   }, []);
 
   return (
@@ -17,8 +17,8 @@ export const ErrorPage = () => {
                 autoStart: true,
                 loop: true,
                 delay: 25,
-                strings: ["Algo errado aconteceu!",
-                  "Tente acessat novamente pela barra de navegação."]
+                strings: ["Something went wrong!",
+                  "Try access again using the URL bar."]
               }}
           />
         </Typography.terminalText>

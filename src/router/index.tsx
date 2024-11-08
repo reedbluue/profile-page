@@ -20,7 +20,7 @@ export const router = createHashRouter([
         element: <StackPage/>
       },
       {
-        path: "/contato",
+        path: "/contact",
         element: <ContatoPage/>
       }
     ],
