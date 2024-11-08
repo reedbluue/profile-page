@@ -33,7 +33,7 @@ export const ProfilePage = () => {
               <Typewriter
                   onInit={(typewriter) => {
                     typewriter.typeString(
-                        'python perfil.py').pauseFor(1000).callFunction(nextStep)
+                        'python profile.py').pauseFor(1000).callFunction(nextStep)
                         .start();
                   }}
 
